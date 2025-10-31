@@ -4,8 +4,9 @@
 
 #o usuário deve informar a rede e o script deve retornar os hosts que possuem a porta 80 aberta. 
 
-!bin/bash/
-if ["$1" == "" ]; # se usuario nao escrever nada o programa mostra como usar.
+#!bin/bash
+
+if [ "$1" == "" ]; # se usuario nao escrever nada o programa mostra como usar.
 
 then
     echo "DUTS00 SECURITY - PORTSCAN NETWORK "
